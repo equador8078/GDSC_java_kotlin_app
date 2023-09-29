@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_margin="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/units"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INCHES TO METRE UNIT CONVERTER APP" />
+
+    <EditText
+        android:id="@+id/inches_Edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Inches" />
+    <Button
+        android:inputType="numberDecimal"
+        android:id="@+id/calculate_Button"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+    <TextView
+        android:id="@+id/results_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        />
+
+
+</LinearLayout>
